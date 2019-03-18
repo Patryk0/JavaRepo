@@ -10,6 +10,8 @@ package javaproject;
  * @author osboxes
  */
 public class JavaProject {
+	
+	public static String projectName = "test project name for git purposes";
 
     /**
      * @param args the command line arguments
@@ -17,6 +19,7 @@ public class JavaProject {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println(System.getProperty("java.version"));
+        
+        System.out.println(projectName);
     }
-    
 }
