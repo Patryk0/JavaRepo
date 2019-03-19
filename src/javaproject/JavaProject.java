@@ -10,16 +10,18 @@ package javaproject;
  * @author osboxes
  */
 public class JavaProject {
-	
-	public static String projectName = "test project name for git purposes";
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+    	DEV1 dev1 = new DEV1();
+    	DEV2 dev2 = new DEV2();
+    	
         System.out.println(System.getProperty("java.version"));
         
-        System.out.println(projectName);
+        System.out.println(dev1.author);
+        System.out.println(dev2.imie + " " + dev2.nazwisko);
     }
 }
